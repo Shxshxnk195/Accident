@@ -44,7 +44,8 @@ class _TimerPageState extends State<TimerPage> {
   Future<void> sendEmailRequest() async {
     const url =
         'http://10.70.5.184:5000/send-email'; // Replace with your Flask API URL
-    const receiverEmail = 'chalasaniajitha@gmail.com';
+    const receiverEmail =
+        'chalasaniajitha@gmail.com'; //replace with receiver email
     const name = 'John Doe';
     final coordinates = {
       'latitude': widget.coordinates?.latitude.toString(),

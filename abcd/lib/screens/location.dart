@@ -42,6 +42,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
   }
 
   @override
+  // ignore: override_on_non_overriding_member
   void didPopNext() {
     // Called when the current route has been popped off, and the current route shows up.
     startTracking();
